@@ -22,8 +22,8 @@ const Navbar = () => {
         <Link className="navbar-brand" to="/" onClick={() => setIsNavbarCollapsed(true)}>
           <img src={logo} alt="Logo" className="logo" />
           <div className="brand-text">
-            <div className="brand-name">VIKAH RUBBERS</div>
-            <div className="brand-subtext">PVT LTD</div>
+            <div className="brand-name mb-3">VIKAH RUBBERS</div>
+            {/* <div className="brand-subtext">PVT LTD</div> */}
           </div>
         </Link>
 
